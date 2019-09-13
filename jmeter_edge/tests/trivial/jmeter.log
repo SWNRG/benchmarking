@@ -1,0 +1,160 @@
+2019-09-12 11:42:56,270 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-09-12 11:42:56,290 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.1.1/bin/user.properties
+2019-09-12 11:42:56,291 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.1.1/bin/system.properties
+2019-09-12 11:42:56,291 INFO o.a.j.JMeter: Setting System property: log_level.jmeter=DEBUG
+2019-09-12 11:42:56,291 WARN o.a.j.JMeter: Removing JMeter property: TARGET_HOST
+2019-09-12 11:42:56,291 WARN o.a.j.JMeter: Removing JMeter property: TARGET_PORT
+2019-09-12 11:42:56,291 WARN o.a.j.JMeter: Removing JMeter property: TARGET_PATH
+2019-09-12 11:42:56,291 WARN o.a.j.JMeter: Removing JMeter property: TARGET_KEYWORD
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: java.version=1.8.0_212
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: os.name=Linux
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: os.arch=amd64
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: os.version=4.15.0-62-generic
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: java.awt.headless=true
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: Max memory     =1350565888
+2019-09-12 11:42:56,297 INFO o.a.j.JMeter: Available Processors =4
+2019-09-12 11:42:56,302 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-09-12 11:42:56,303 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-09-12 11:42:56,303 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.1.1
+2019-09-12 11:42:56,303 INFO o.a.j.JMeter: user.dir  =/home/sdn/benchmarking/docker-jmeter_v2
+2019-09-12 11:42:56,303 INFO o.a.j.JMeter: PWD       =/home/sdn/benchmarking/docker-jmeter_v2
+2019-09-12 11:42:56,303 INFO o.a.j.JMeter: IP: 172.17.0.3 Name: 527e0cd661da FullName: 527e0cd661da
+2019-09-12 11:42:56,306 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/sdn/benchmarking/docker-jmeter_v2/templates'
+2019-09-12 11:42:56,308 INFO o.a.j.s.FileServer: Default base='/home/sdn/benchmarking/docker-jmeter_v2'
+2019-09-12 11:42:56,313 INFO o.a.j.s.FileServer: Set new base='/home/sdn/benchmarking/docker-jmeter_v2/tests/trivial'
+2019-09-12 11:42:56,470 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-09-12 11:42:56,486 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-09-12 11:42:56,491 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-09-12 11:42:56,498 INFO o.a.j.s.SaveService: Loading file: tests/trivial/test-plan_v2.jmx
+2019-09-12 11:42:56,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-12 11:42:56,558 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-12 11:42:56,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-12 11:42:56,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-12 11:42:56,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-09-12 11:42:56,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-09-12 11:42:56,571 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-09-12 11:42:56,571 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-09-12 11:42:56,571 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-09-12 11:42:56,571 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-09-12 11:42:56,584 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-09-12 11:42:56,597 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2019-09-12 11:42:56,597 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: tests/trivial/test-plan.jtl
+2019-09-12 11:42:56,597 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.1.1/bin/reportgenerator.properties
+2019-09-12 11:42:56,598 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2019-09-12 11:42:56,603 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2019-09-12 11:42:56,606 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2019-09-12 11:42:56,606 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2019-09-12 11:42:56,606 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2019-09-12 11:42:56,607 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2019-09-12 11:42:56,607 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2019-09-12 11:42:56,607 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2019-09-12 11:42:56,607 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2019-09-12 11:42:56,607 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2019-09-12 11:42:56,612 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,612 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,612 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,613 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-09-12 11:42:56,614 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2019-09-12 11:42:56,614 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2019-09-12 11:42:56,615 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2019-09-12 11:42:56,615 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2019-09-12 11:42:56,615 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2019-09-12 11:42:56,615 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2019-09-12 11:42:56,621 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-12 11:42:56,622 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-12 11:42:56,622 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-12 11:42:56,629 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-09-12 11:42:56,629 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-09-12 11:42:57,015 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
+2019-09-12 11:42:57,016 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
+2019-09-12 11:42:57,036 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: 195.251.209.201, port: 2003, prefix: jmeter1.
+2019-09-12 11:42:57,049 INFO o.a.j.JMeter: Running test (1568288577048)
+2019-09-12 11:42:57,099 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Server test
+2019-09-12 11:42:57,099 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Server test.
+2019-09-12 11:42:57,099 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-12 11:42:57,099 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=0 delayedStart=false
+2019-09-12 11:42:57,111 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-1
+2019-09-12 11:42:57,112 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-3
+2019-09-12 11:42:57,112 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-2
+2019-09-12 11:42:57,114 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-8
+2019-09-12 11:42:57,115 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-12 11:42:57,115 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-12 11:42:57,115 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-10
+2019-09-12 11:42:57,116 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-6
+2019-09-12 11:42:57,116 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-7
+2019-09-12 11:42:57,116 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-9
+2019-09-12 11:42:57,116 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-4
+2019-09-12 11:42:57,116 INFO o.a.j.t.JMeterThread: Thread started: Server test 1-5
+2019-09-12 11:42:57,276 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 527e0cd661da
+2019-09-12 11:42:57,283 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-09-12 11:42:57,709 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-09-12 11:42:57,709 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-09-12 11:43:00,071 INFO o.a.j.r.Summariser: summary +     45 in 00:00:03 =   14.9/s Avg:     7 Min:     4 Max:    45 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:43:30,019 INFO o.a.j.r.Summariser: summary +    570 in 00:00:30 =   19.0/s Avg:     5 Min:     3 Max:    39 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:43:30,019 INFO o.a.j.r.Summariser: summary =    615 in 00:00:33 =   18.7/s Avg:     5 Min:     3 Max:    45 Err:     0 (0.00%)
+2019-09-12 11:44:00,008 INFO o.a.j.r.Summariser: summary +    576 in 00:00:30 =   19.2/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:44:00,009 INFO o.a.j.r.Summariser: summary =   1191 in 00:01:03 =   18.9/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:44:30,001 INFO o.a.j.r.Summariser: summary +    584 in 00:00:30 =   19.5/s Avg:     5 Min:     3 Max:    15 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:44:30,001 INFO o.a.j.r.Summariser: summary =   1775 in 00:01:33 =   19.1/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:45:00,168 INFO o.a.j.r.Summariser: summary +    591 in 00:00:30 =   19.6/s Avg:     4 Min:     3 Max:    19 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:45:00,168 INFO o.a.j.r.Summariser: summary =   2366 in 00:02:03 =   19.2/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:45:30,008 INFO o.a.j.r.Summariser: summary +    578 in 00:00:30 =   19.4/s Avg:     4 Min:     3 Max:    18 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:45:30,008 INFO o.a.j.r.Summariser: summary =   2944 in 00:02:33 =   19.2/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:46:00,029 INFO o.a.j.r.Summariser: summary +    608 in 00:00:30 =   20.3/s Avg:     5 Min:     3 Max:    22 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:46:00,029 INFO o.a.j.r.Summariser: summary =   3552 in 00:03:03 =   19.4/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:46:30,011 INFO o.a.j.r.Summariser: summary +    574 in 00:00:30 =   19.1/s Avg:     5 Min:     3 Max:    23 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:46:30,011 INFO o.a.j.r.Summariser: summary =   4126 in 00:03:33 =   19.4/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:47:00,011 INFO o.a.j.r.Summariser: summary +    611 in 00:00:30 =   20.4/s Avg:     5 Min:     3 Max:    62 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:47:00,011 INFO o.a.j.r.Summariser: summary =   4737 in 00:04:03 =   19.5/s Avg:     5 Min:     3 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:47:30,024 INFO o.a.j.r.Summariser: summary +    575 in 00:00:30 =   19.2/s Avg:     5 Min:     2 Max:    23 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:47:30,035 INFO o.a.j.r.Summariser: summary =   5312 in 00:04:33 =   19.5/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:48:00,121 INFO o.a.j.r.Summariser: summary +    586 in 00:00:30 =   19.5/s Avg:     5 Min:     3 Max:    27 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:48:00,122 INFO o.a.j.r.Summariser: summary =   5898 in 00:05:03 =   19.5/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:48:30,215 INFO o.a.j.r.Summariser: summary +    572 in 00:00:30 =   19.0/s Avg:     5 Min:     3 Max:    24 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:48:30,216 INFO o.a.j.r.Summariser: summary =   6470 in 00:05:33 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:49:00,015 INFO o.a.j.r.Summariser: summary +    585 in 00:00:30 =   19.6/s Avg:     4 Min:     3 Max:    18 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:49:00,016 INFO o.a.j.r.Summariser: summary =   7055 in 00:06:03 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:49:30,104 INFO o.a.j.r.Summariser: summary +    586 in 00:00:30 =   19.5/s Avg:     4 Min:     3 Max:    24 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:49:30,105 INFO o.a.j.r.Summariser: summary =   7641 in 00:06:33 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:50:00,021 INFO o.a.j.r.Summariser: summary +    574 in 00:00:30 =   19.2/s Avg:     4 Min:     3 Max:    18 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:50:00,021 INFO o.a.j.r.Summariser: summary =   8215 in 00:07:03 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:50:30,108 INFO o.a.j.r.Summariser: summary +    586 in 00:00:30 =   19.5/s Avg:     4 Min:     3 Max:    25 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:50:30,108 INFO o.a.j.r.Summariser: summary =   8801 in 00:07:33 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:51:00,095 INFO o.a.j.r.Summariser: summary +    563 in 00:00:30 =   18.8/s Avg:     4 Min:     3 Max:    24 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:51:00,095 INFO o.a.j.r.Summariser: summary =   9364 in 00:08:03 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:51:30,107 INFO o.a.j.r.Summariser: summary +    598 in 00:00:30 =   19.9/s Avg:     5 Min:     3 Max:    61 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:51:30,107 INFO o.a.j.r.Summariser: summary =   9962 in 00:08:33 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:52:00,043 INFO o.a.j.r.Summariser: summary +    556 in 00:00:30 =   18.6/s Avg:     5 Min:     3 Max:    24 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:52:00,043 INFO o.a.j.r.Summariser: summary =  10518 in 00:09:03 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:52:30,005 INFO o.a.j.r.Summariser: summary +    594 in 00:00:30 =   19.8/s Avg:     5 Min:     3 Max:    25 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:52:30,006 INFO o.a.j.r.Summariser: summary =  11112 in 00:09:33 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:53:00,063 INFO o.a.j.r.Summariser: summary +    559 in 00:00:30 =   18.6/s Avg:     5 Min:     3 Max:    29 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:53:00,063 INFO o.a.j.r.Summariser: summary =  11671 in 00:10:03 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:53:30,053 INFO o.a.j.r.Summariser: summary +    586 in 00:00:30 =   19.5/s Avg:     5 Min:     3 Max:    26 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:53:30,053 INFO o.a.j.r.Summariser: summary =  12257 in 00:10:33 =   19.4/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:54:00,020 INFO o.a.j.r.Summariser: summary +    562 in 00:00:30 =   18.8/s Avg:     5 Min:     3 Max:    25 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:54:00,020 INFO o.a.j.r.Summariser: summary =  12819 in 00:11:03 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:54:30,061 INFO o.a.j.r.Summariser: summary +    578 in 00:00:30 =   19.2/s Avg:     5 Min:     3 Max:    22 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:54:30,062 INFO o.a.j.r.Summariser: summary =  13397 in 00:11:33 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:55:00,067 INFO o.a.j.r.Summariser: summary +    566 in 00:00:30 =   18.9/s Avg:     5 Min:     3 Max:    50 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:55:00,070 INFO o.a.j.r.Summariser: summary =  13963 in 00:12:03 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:55:30,015 INFO o.a.j.r.Summariser: summary +    595 in 00:00:30 =   19.9/s Avg:     5 Min:     3 Max:    31 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:55:30,015 INFO o.a.j.r.Summariser: summary =  14558 in 00:12:33 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:56:00,039 INFO o.a.j.r.Summariser: summary +    572 in 00:00:30 =   19.1/s Avg:     5 Min:     3 Max:    39 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:56:00,040 INFO o.a.j.r.Summariser: summary =  15130 in 00:13:03 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:56:30,025 INFO o.a.j.r.Summariser: summary +    584 in 00:00:30 =   19.5/s Avg:     5 Min:     3 Max:    35 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:56:30,025 INFO o.a.j.r.Summariser: summary =  15714 in 00:13:33 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:57:00,055 INFO o.a.j.r.Summariser: summary +    577 in 00:00:30 =   19.2/s Avg:     5 Min:     3 Max:    42 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:57:00,056 INFO o.a.j.r.Summariser: summary =  16291 in 00:14:03 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
+2019-09-12 11:57:30,035 INFO o.a.j.r.Summariser: summary +    571 in 00:00:30 =   19.0/s Avg:     5 Min:     3 Max:    24 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2019-09-12 11:57:30,036 INFO o.a.j.r.Summariser: summary =  16862 in 00:14:33 =   19.3/s Avg:     5 Min:     2 Max:    63 Err:     0 (0.00%)
