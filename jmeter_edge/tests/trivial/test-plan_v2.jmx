@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="test.host" elementType="Argument">
             <stringProp name="Argument.name">test.host</stringProp>
-            <stringProp name="Argument.value">brazil.swn.uom.gr</stringProp>
+            <stringProp name="Argument.value">greece.swn.uom.gr</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">HTTP server to test</stringProp>
           </elementProp>
